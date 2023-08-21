@@ -98,11 +98,37 @@
           <h4>¿Querés que nos contactemos con vos?</h4>
           <p>Envianos tu consulta >></p>
         </section>
-        <section></section>
+        <section>
+          <form action="codigo.php" method="post">
+            <label for="nombre"
+              >Nombre <span>*</span><br>
+              <input id="nombre" type="text" required />
+            </label>
+            <br>
+            <label for="email"
+              >Email <span>*</span><br>
+              <input id="email" type="mail" required />
+            </label>
+            <br>
+            <label for="mensaje"
+              >Mensaje <span>*</span><br>
+              <textarea id="mensaje" required></textarea>
+            </label>
+            <br>
+            <div>
+              <input type="submit" value="Enviar consulta">
+              <input type="reset" value="Borrar">
+            </div>
+            
+          </form>
+        </section>
       </div>
     </main>
 
-    <aside class="redes">
+    <section class="redes">
+      <div>
+        <p>redes <br />wwapas</p>
+      </div>
       <a href="http://www.instagram.com" target="_blank">
         <img src="img/instagram-icon.png" alt="Instagram"
       /></a>
@@ -115,7 +141,7 @@
       <a href="http://www.instagram.com" target="_blank">
         <img src="img/dribbble-icon.png" alt="Dribble"
       /></a>
-    </aside>
+    </section>
 
     <footer>
       <h1>wwwapas</h1>
