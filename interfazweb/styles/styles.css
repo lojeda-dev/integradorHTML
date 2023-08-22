@@ -1,122 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap");
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
 body {
+  margin: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
   color: #333;
   font: 400;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-}
-nav h1 {
-  margin-right: auto;
-}
-nav h1,
-footer h1 {
-  font-family: "Coiny", cursive;
-}
-header h1 {
-  font-size: 41px;
-}
-h1,
-h2,
-h3,
-h4 {
-  color: #000;
-}
-h2,
-h3 {
-  background-color: #fcee21;
-  font-size: 20px;
-}
-h3 {
-  font-size: 26px;
-}
-h2 {
-  font-weight: none;
-}
-h4 {
-  font-size: 33px;
-}
-main {
-  font-size: 21px;
-}
-nav a,
-footer a {
-  margin-left: 20px;
-  color: #7a7a7a;
-  text-decoration: none;
-}
-nav a:hover {
-  text-decoration: underline;
 }
 nav {
-  padding: 20px;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
 }
-nav a {
-  text-transform: capitalize;
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  margin-top: 12px;
 }
-header h1 {
-  font-weight: 700;
-  font-size: 41px;
+.inicio,
+.servicio {
+  margin-right: 50px;
 }
-main,
-footer,
-aside,
+a:hover{
+  text-decoration: underline;
+  color: #7a7a7a;
+}
+a{
+  text-decoration: none;
+  color: #7a7a7a;
+}
+nav h1 {
+  margin-top: 5px;
+}
 header {
-  width: 100%;
+  display: flex;
+  margin-top: 50px;
 }
-footer {
-  height: 100px;
-  padding: 10px;
-  background-color: #fcee21;
+.img-wapas {
+  display: flex;
+  margin-left: auto;
+  width: 75%;
 }
-h4 {
-  margin: 0;
-  font-size: 51px;
-  color: #fdfefe;
-  background-color: #000;
-  line-height: 100px;
-  padding: 10px;
+header section h2 {
+  font-size: 20px;
 }
-footer h1 {
-  font-size: 33px;
+header section p {
+  margin-top: 80px;
 }
-section {
-  width: 45%;
+nav h1,
+footer h1,
+.enunciado {
+  font-family: "Coiny", cursive;
 }
-main {
-  font-size: 21px;
+.enunciado {
+  font-size: 75px;
 }
-aside {
-  height: auto;
-  width: 50%;
+.contenedor-intro, .contenedor-servicios{
+  display: flex;
 }
-header img {
-  width: 70%;
-  margin-left: 30%;
+.img-servicios{
+  width: 75%;
 }
-ol {
-  font-size: 2em;
-  font-weight: 400;
-  list-style-position: inside;
-}
-span {
-  color: #ff0000;
-}
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-input {
-  height: 40px;
-}
-input,
-textarea {
-  width: 100%;
-}
-form {
-  margin: auto;
+aside a img{
+  width: 5%;
 }
