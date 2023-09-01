@@ -46,13 +46,8 @@ header {
   display: flex;
   margin-top: 50px;
 }
-.img-wapas {
-  display: flex;
-  margin-left: auto;
-  width: 75%;
-}
 header section h1 {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 header section h2 {
   font-size: 20px;
@@ -60,13 +55,18 @@ header section h2 {
 header section p {
   margin-top: 80px;
 }
+.img-wapas {
+  display: flex;
+  margin-left: auto;
+  width: 75%;
+}
+.enunciado {
+  font-size: 80px;
+}
 nav h1,
 footer h1,
 .enunciado {
   font-family: "Coiny", cursive;
-}
-.enunciado {
-  font-size: 90px;
 }
 .contenedor-intro,
 .contenedor-servicios,
@@ -101,43 +101,68 @@ footer {
   display: flex;
   margin-top: 25px;
 }
-ol{
+ol {
   padding-top: 30px;
 }
-ol li{
-  padding-bottom: 10px;
+ol li {
+  margin-bottom: 30px;
 }
-.item-servicios{
+.item-servicios {
   font-weight: bold;
-  font-size: 30px;
-  margin-left: 10px;
+  font-size: 35px;
 }
-h4 span{
+h4 span {
   background-color: #000;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 50px;
 }
-.parrafo-contacto{
+.parrafo-contacto {
   margin-top: 20px;
   font-weight: bold;
 }
-span{
-  color: #FF0000;
+.rojo {
+  color: #ff0000;
 }
-label{
+label {
   font-weight: bold;
 }
-#nombre , #email{
+#nombre,
+#email {
   width: 450px;
   height: 30px;
 }
-.enviar, .borrar{
+.enviar,
+.borrar {
   background-color: #000;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 15px;
   padding: 5px;
 }
-.contenedor-botones{
+input {
+  margin-bottom: 15px;
+}
+.contenedor-botones {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+}
+textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+}
+footer {
+  margin-top: 43px;
+  display: flex;
+  background-color: #fcce21;
+}
+footer a {
+  padding-top: 23px;
+  margin-left: 50px;
+}
+.amarillo,
+.item-servicios,
+.parrafo-contacto {
+  background-color: #fcce21;
+  display: inline;
 }
