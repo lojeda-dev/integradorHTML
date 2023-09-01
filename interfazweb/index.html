@@ -19,8 +19,8 @@
 
     <header>
       <section>
-        <h1>somos<br /><strong class="enunciado">wwwapas</strong></h1>
-        <h2>
+        <h1>somos<br /><strong class="enunciado">wwapas</strong></h1>
+        <h2 class="amarillo">
           <strong>Social medial managers | creadoras de contenido</strong>
         </h2>
         <p>
@@ -44,7 +44,7 @@
     <main>
       <div class="contenedor-intro">
         <section>
-          <h3>¡Hola! Somos SOFI & JULIA</h3>
+          <h3 class="amarillo">¡Hola! Somos SOFI & JULIA</h3>
           <p>
             las social media managers, las creadoras de contenido, las
             copywriters, las generadoras de leads, las diseñadoras, las
@@ -58,7 +58,7 @@
         </section>
 
         <section>
-          <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
+          <h3 class="amarillo">GESTIONAMOS TUS REDES SOCIALES</h3>
           <p>
             La transformación digital no es solo para grandes compañías, todas
             las empresas deben emprenderla cuanto antes y aquí es donde podemos
@@ -96,7 +96,7 @@
               Diagramamos un calendario que se ajuste a los objetivos de la
               empresa
             </li>
-            <li class="item-servicios">¡Empezamos a comunicar!</li>
+            <li class="item-servicios">7. ¡Empezamos a comunicar!</li>
           </ol>
         </section>
       </div>
@@ -104,26 +104,27 @@
       <div class="contenedor-contacto" id="contacto">
         <section>
           <h4 class="item-contacto">
-            <span>¿Querés que nos</span> <br /><br />
+            <span>¿Querés que nos</span><br /><br />
             <span>contactemos con vos?</span>
           </h4>
+          <br />
           <p class="parrafo-contacto">Envianos tu consulta >></p>
         </section>
         <section class="formulario">
-          <form action="codigo.php" method="post">
+          <form action="php/codigo.php" method="post">
             <label for="nombre"
-              >Nombre <span>*</span><br />
-              <input id="nombre" type="text" required />
+              >Nombre <span class="rojo">*</span><br />
+              <input id="nombre" name="nombre" type="text" required />
             </label>
             <br />
             <label for="email"
-              >Email <span>*</span><br />
-              <input id="email" type="mail" required />
+              >Email <span class="rojo">*</span><br />
+              <input id="email" name="email" required type="email"/>
             </label>
             <br />
             <label for="mensaje"
-              >Mensaje <span>*</span><br />
-              <textarea id="mensaje" required></textarea>
+              >Mensaje <span class="rojo">*</span><br />
+              <textarea id="mensaje" name="mensaje" required></textarea>
             </label>
             <br />
             <div class="contenedor-botones">
